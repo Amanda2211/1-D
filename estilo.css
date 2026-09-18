@@ -1,26 +1,11 @@
-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #6a5acd;
-    color: white;
-}
-
-section {
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-}
-
-footer {
-    text-align: center;
-    padding: 15px;
- *{
+/* Zera margens padrão */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilos base gerais */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -28,6 +13,7 @@ body {
     color: #333333;
 }
 
+/* Fundo azul escuro */
 .cabecalho {
     background-color: #1e3a5f;
     color: #ffffff;
@@ -35,40 +21,49 @@ body {
     text-align: center;
 }
 
+/* Espaço do título */
 .cabecalho h1 {
     margin-bottom: 15px;
 }
 
+/* Alinha links horizontais */
 .menu-principal {
     display: flex;
     justify-content: center;
     gap: 25px;
 }
 
+/* Tira sublinhado padrão */
 .menu-principal a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
 
+/* Cor ao passar mouse */
 .menu-principal a:hover {
     color: #a3c1e0;
     text-decoration: underline;
 }
+
+/* Limita largura máxima */
 main {
     max-width: 1000px;
     margin: 0 auto;
 }
 
+/* Espaço interno seções */
 section {
     padding: 50px 25px;
 }
 
+/* Fundo branco início */
 .secao-inicio {
     text-align: center;
     background-color: #ffffff;
 }
 
+/* Títulos das seções */
 .secao-inicio h2,
 .secao-sobre h2,
 .secao-contato h2 {
@@ -76,12 +71,14 @@ section {
     color: #1e3a5f;
 }
 
+/* Centraliza os textos */
 .secao-inicio p,
 .secao-sobre p {
     max-width: 700px;
     margin: 0 auto 25px;
 }
 
+/* Visual de botão */
 .botao {
     display: inline-block;
     padding: 10px 20px;
@@ -91,19 +88,23 @@ section {
     border-radius: 5px;
 }
 
+/* Botão mais escuro */
 .botao:hover {
     background-color: #142940;
 }
 
+/* Fundo cinza claro */
 .secao-sobre {
     background-color: #e8eef5;
     text-align: center;
 }
 
+/* Fundo branco contato */
 .secao-contato {
     background-color: #ffffff;
 }
 
+/* Organiza inputs verticalmente */
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -112,6 +113,7 @@ form {
     gap: 10px;
 }
 
+/* Bordas das caixas */
 input,
 textarea {
     padding: 10px;
@@ -120,10 +122,12 @@ textarea {
     font-family: inherit;
 }
 
+/* Permite aumentar altura */
 textarea {
     resize: vertical;
 }
 
+/* Botão de formulário */
 #btn-enviar {
     padding: 12px;
     border: none;
@@ -134,16 +138,20 @@ textarea {
     cursor: pointer;
 }
 
+/* Efeito mouse enviar */
 #btn-enviar:hover {
     background-color: #142940;
 }
 
+/* Fundo final página */
 .rodape {
     padding: 20px;
     background-color: #1e3a5f;
     color: #ffffff;
     text-align: center;
 }
+
+/* Botão sempre visível */
 #btn-topo {
     position: fixed;
     bottom: 20px;
@@ -161,10 +169,12 @@ textarea {
     box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
+/* Efeito mouse topo */
 #btn-topo:hover {
     background-color: #142940;
 }
 
+/* Rolagem de âncoras */
 html {
     scroll-behavior: smooth;
 }
