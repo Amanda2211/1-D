@@ -1,1 +1,30 @@
+.corpo{
 
+    background-color: #975e5e;
+
+}
+.pdtxt{
+
+    color: #fae9b0;
+    font-size: 17.5px;
+    font-family: Lucida Console, monospace;
+    -webkit-text-stroke: 0.3px #ccaa60
+   
+}
+
+.pdtitle1{
+  
+  color: #fae9b0;
+    font-size: 30px;
+    font-family: Lucida Console, monospace;
+    -webkit-text-stroke: 0.3px #000000
+
+}
+.pdtitle{
+  
+  color: #fae9b0;
+    font-size: 25px;
+    font-family: Lucida Console, monospace;
+    -webkit-text-stroke: 0.3px #000000
+
+}
