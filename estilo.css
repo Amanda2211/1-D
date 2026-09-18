@@ -1,1 +1,40 @@
+body {
+background-color: #151010;
+color: white;
+font-family: Arial;
+text-align: center;
+margin: 30px;
+}
 
+h1 {
+color: #d4a85c;
+font-size: 45px;
+margin-bottom: 10px;
+}
+
+h2 {
+color: #c0392b;
+font-size: 30px;
+margin-top: 40px;
+}
+
+h3 {
+color: #d4a85c;
+font-size: 23px;
+}
+
+p {
+font-size: 18px;
+line-height: 1.5;
+}
+
+ul {
+display: inline-block;
+text-align: left;
+font-size: 18px;
+}
+
+hr {
+border: 1px solid #6b2020;
+margin: 30px;
+}
