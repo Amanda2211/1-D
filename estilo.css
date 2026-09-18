@@ -15,4 +15,156 @@ section {
 footer {
     text-align: center;
     padding: 15px;
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+.cabecalho {
+    background-color: #1e3a5f;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.cabecalho h1 {
+    margin-bottom: 15px;
+}
+
+.menu-principal {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.menu-principal a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-principal a:hover {
+    color: #a3c1e0;
+    text-decoration: underline;
+}
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 50px 25px;
+}
+
+.secao-inicio {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.secao-inicio h2,
+.secao-sobre h2,
+.secao-contato h2 {
+    margin-bottom: 15px;
+    color: #1e3a5f;
+}
+
+.secao-inicio p,
+.secao-sobre p {
+    max-width: 700px;
+    margin: 0 auto 25px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e3a5f;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: #142940;
+}
+
+.secao-sobre {
+    background-color: #e8eef5;
+    text-align: center;
+}
+
+.secao-contato {
+    background-color: #ffffff;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+
+#btn-enviar {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e3a5f;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btn-enviar:hover {
+    background-color: #142940;
+}
+
+.rodape {
+    padding: 20px;
+    background-color: #1e3a5f;
+    color: #ffffff;
+    text-align: center;
+}
+#btn-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1e3a5f;
+    color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+#btn-topo:hover {
+    background-color: #142940;
+}
+
+html {
+    scroll-behavior: smooth;
 }
