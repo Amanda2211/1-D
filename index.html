@@ -1,15 +1,144 @@
-<header class="cabecalho">
-    <h1>Meu Projeto Acadêmico</h1>
-    <p>Trabalho colaborativo desenvolvido em equipe</p>
-</header>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página de fãs sobre a saga Jogos Vorazes: Panem, os 12 distritos, personagens, livros e filmes.">
+  <title>Jogos Vorazes: guia de Panem</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <a class="link-pular" href="#conteudo-principal">Pular para o conteúdo</a>
 
-<main class="conteudo">
-    <section class="minha-secao">
-        <h2>Sobre a Atividade</h2>
-        <p>Esta página foi estruturada utilizando boas práticas de desenvolvimento web, aplicando marcação semântica e estilização externa separada.</p>
+  <header class="cabecalho-principal">
+    <div class="emblema-arena" aria-hidden="true"></div>
+    <h1 class="titulo-pagina">Jogos Vorazes</h1>
+    <p class="subtitulo-pagina">Um guia de Panem: os distritos, os tributos e a saga que os reúne.</p>
+
+    <nav class="menu-principal" aria-label="Menu principal">
+      <ul class="lista-menu">
+        <li><a href="#sobre">A história</a></li>
+        <li><a href="#distritos">Distritos</a></li>
+        <li><a href="#personagens">Personagens</a></li>
+        <li><a href="#saga">Livros e filmes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo-principal" class="conteudo-principal">
+
+    <section id="sobre" class="secao-pagina">
+      <h2 class="titulo-secao">A história em poucas linhas</h2>
+      <p>
+        Panem é uma nação construída sobre as ruínas da América do Norte. O Capitólio,
+        uma cidade luxuosa, governa doze distritos que produzem tudo o que ele consome.
+      </p>
+      <p>
+        Como punição por uma rebelião antiga, cada distrito é obrigado a enviar
+        uma garota e um garoto, chamados <strong>tributos</strong>, para uma arena
+        transmitida ao vivo. Dos vinte e quatro jovens, só um sai vivo.
+      </p>
+      <p>
+        Quando Katniss Everdeen se oferece no lugar da irmã mais nova, os Jogos
+        deixam de ser apenas um espetáculo e passam a ser o começo de uma revolta.
+      </p>
     </section>
-</main>
 
-<footer class="rodape">
-    <p>&copy; 2026 - Desenvolvido para fins educacionais</p>
-</footer>
+    <section id="distritos" class="secao-pagina">
+      <h2 class="titulo-secao">Os doze distritos</h2>
+      <p class="texto-apoio">Cada distrito tem uma função na economia de Panem.</p>
+
+      <div class="tabela-rolagem">
+        <table class="tabela-distritos">
+          <caption>Distritos de Panem e o que cada um produz</caption>
+          <thead>
+            <tr>
+              <th scope="col">Distrito</th>
+              <th scope="col">Atividade principal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">1</th><td>Artigos de luxo para o Capitólio</td></tr>
+            <tr><th scope="row">2</th><td>Pedreiras e armamentos</td></tr>
+            <tr><th scope="row">3</th><td>Tecnologia e eletrônicos</td></tr>
+            <tr><th scope="row">4</th><td>Pesca</td></tr>
+            <tr><th scope="row">5</th><td>Geração de energia</td></tr>
+            <tr><th scope="row">6</th><td>Transportes</td></tr>
+            <tr><th scope="row">7</th><td>Madeira</td></tr>
+            <tr><th scope="row">8</th><td>Tecidos e vestuário</td></tr>
+            <tr><th scope="row">9</th><td>Cereais</td></tr>
+            <tr><th scope="row">10</th><td>Pecuária</td></tr>
+            <tr><th scope="row">11</th><td>Agricultura</td></tr>
+            <tr><th scope="row">12</th><td>Mineração de carvão</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="personagens" class="secao-pagina">
+      <h2 class="titulo-secao">Personagens principais</h2>
+
+      <dl class="lista-personagens">
+        <div class="item-personagem">
+          <dt>Katniss Everdeen</dt>
+          <dd>Caçadora do Distrito 12. Voluntaria-se para proteger a irmã e se torna o rosto da rebelião.</dd>
+        </div>
+        <div class="item-personagem">
+          <dt>Peeta Mellark</dt>
+          <dd>Filho de padeiros do Distrito 12. Escolhido como tributo ao lado de Katniss.</dd>
+        </div>
+        <div class="item-personagem">
+          <dt>Gale Hawthorne</dt>
+          <dd>Caçador e melhor amigo de Katniss, que divide com ela a luta pelo sustento das famílias.</dd>
+        </div>
+        <div class="item-personagem">
+          <dt>Haymitch Abernathy</dt>
+          <dd>Mentor dos tributos do Distrito 12 e único vencedor vivo do distrito.</dd>
+        </div>
+        <div class="item-personagem">
+          <dt>Effie Trinket</dt>
+          <dd>Acompanhante do Capitólio, responsável por organizar a delegação do Distrito 12.</dd>
+        </div>
+        <div class="item-personagem">
+          <dt>Rue</dt>
+          <dd>Jovem tributo do Distrito 11 que se torna aliada de Katniss na arena.</dd>
+        </div>
+        <div class="item-personagem">
+          <dt>Presidente Snow</dt>
+          <dd>Líder do Capitólio, que mantém o controle sobre os distritos por meio do medo.</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section id="saga" class="secao-pagina">
+      <h2 class="titulo-secao">Livros e filmes</h2>
+      <p>A saga foi escrita por Suzanne Collins e adaptada para o cinema.</p>
+
+      <h3 class="titulo-lista">Livros</h3>
+      <ol class="lista-obras">
+        <li>Jogos Vorazes (2008)</li>
+        <li>Em Chamas (2009)</li>
+        <li>A Esperança (2010)</li>
+        <li>A Cantiga dos Pássaros e das Serpentes (2020)</li>
+        <li>Amanhecer na Colheita (2025)</li>
+      </ol>
+
+      <h3 class="titulo-lista">Filmes</h3>
+      <ul class="lista-obras">
+        <li>Jogos Vorazes (2012)</li>
+        <li>Em Chamas (2013)</li>
+        <li>A Esperança: Parte 1 (2014)</li>
+        <li>A Esperança: Parte 2 (2015)</li>
+        <li>A Cantiga dos Pássaros e das Serpentes (2023)</li>
+        <li>Amanhecer na Colheita (2026)</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="rodape-principal">
+    <p>Contribuição de <strong>Seu Nome Completo</strong> para o projeto prático da disciplina.</p>
+    <p class="aviso-direitos">Página educacional feita por fã. Jogos Vorazes é uma obra de Suzanne Collins.</p>
+  </footer>
+</body>
+</html>
