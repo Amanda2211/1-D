@@ -35,7 +35,29 @@ body {
     color: #2c3e50;
     margin-bottom: 10px;
 }
+.casas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
 
+.casa {
+    background-color: #241818;
+    border: 1px solid #6b2020;
+    border-radius: 10px;
+    width: 250px;
+    padding: 15px;
+}
+
+.casa h3 {
+    margin-top: 5px;
+}
+
+.casa p {
+    font-size: 16px;
+}
 .rodape {
     text-align: center;
     padding: 1.5rem;
