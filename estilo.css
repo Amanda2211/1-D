@@ -276,6 +276,21 @@ button:focus-visible {
   font-size: 0.85rem;
   opacity: 0.85;
 }
+.casas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.casa {
+    background-color: #241818;
+    border: 1px solid #6b2020;
+    border-radius: 10px;
+    width: 250px;
+    padding: 15px;
+}
 
 @media (max-width: 480px) {
   .titulo-secao {
